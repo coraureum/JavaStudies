@@ -1,0 +1,11 @@
+package aulas;
+
+public class Vector {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n[] = new int [4];
+		n[0];
+	}
+
+}

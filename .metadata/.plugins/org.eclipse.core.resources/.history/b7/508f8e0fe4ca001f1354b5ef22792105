@@ -1,0 +1,15 @@
+package aulas;
+
+public class Cambalhota {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int cc = 0;
+			while (cc < 10) {
+				cc++;
+
+				System.out.println("Cambalhota de numero " + (cc + 1));
+				}
+	}
+
+}

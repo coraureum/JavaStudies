@@ -1,0 +1,17 @@
+package classes;
+
+import javax.swing.JOptionPane;
+public class ExercRepeat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n, sm = 0, ctp = 0, ctb = 0, ctpar = 0;
+		do {
+	    n = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe um numero (0 interrompe): ").toString());
+	    sm += n;
+		 		
+		}while (n != 0);
+		JOptionPane.showMessageDialog(null, "<html>A soma eh: "  + sm + "<br> A qtde de valores pares sao " + ctpar + "</html>");
+	}
+
+}

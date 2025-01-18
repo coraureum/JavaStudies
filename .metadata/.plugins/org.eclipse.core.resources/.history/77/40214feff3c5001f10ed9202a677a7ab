@@ -1,0 +1,11 @@
+package aulas;
+
+public class ArithOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n1, n2;
+		float avg = (n1+n2)/2;
+	}
+
+}

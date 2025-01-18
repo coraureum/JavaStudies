@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXHelloWorld.jnlp">
+  <information>
+    <title>JavaFXHelloWorld</title>
+    <vendor>le</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXHelloWorld.jar" size="2807" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxhelloworld.JavaFXHelloWorld"  name="JavaFXHelloWorld" />
+  <update check="always"/>
+</jnlp>

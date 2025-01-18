@@ -1,0 +1,60 @@
+package aulas;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JSlider;
+
+public class SuperCounter extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					SuperCounter frame = new SuperCounter();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public SuperCounter() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(308, 12, 120, 242);
+		contentPane.add(panel);
+		panel.setLayout(null);
+		
+		JSlider sldBegin = new JSlider();
+		sldBegin.setBounds(34, 50, 200, 16);
+		contentPane.add(sldBegin);
+		
+		JSlider sldEnd = new JSlider();
+		sldEnd.setBounds(34, 99, 200, 16);
+		contentPane.add(sldEnd);
+		
+		JSlider sldStep = new JSlider();
+		sldStep.setBounds(34, 161, 200, 16);
+		contentPane.add(sldStep);
+	}
+}

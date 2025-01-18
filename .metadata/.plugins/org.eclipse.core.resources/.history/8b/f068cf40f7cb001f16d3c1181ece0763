@@ -1,0 +1,15 @@
+package classes;
+
+import javax.swing.JOptionPane;
+public class ExercRepeat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		do {
+		int n = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe um numero: ").toString());
+		JOptionPane.showMessageDialog(null, "Vc digitou " + n);
+		String rsp = JOptionPane.showInputDialog(null, "Deseja continuar? [y/n]");
+		}while (rsp != "N");
+	}
+
+}

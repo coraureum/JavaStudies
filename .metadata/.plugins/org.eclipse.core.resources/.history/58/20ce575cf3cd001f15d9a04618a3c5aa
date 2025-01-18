@@ -1,0 +1,10 @@
+package aulas;
+
+public class Meth02 {
+	String counter(int beg, int end) {
+		String cnt = "";
+		for  (int i = beg; i <= end; i++) {
+			cnt += i + " ";
+		}
+	}
+}

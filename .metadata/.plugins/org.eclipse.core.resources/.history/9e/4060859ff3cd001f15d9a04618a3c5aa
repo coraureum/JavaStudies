@@ -1,0 +1,7 @@
+package aulas;
+
+public class Meth02 {
+	public static void main (String [] args) {
+		
+	}
+}

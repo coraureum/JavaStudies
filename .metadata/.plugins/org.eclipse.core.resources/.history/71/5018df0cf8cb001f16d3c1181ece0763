@@ -1,0 +1,16 @@
+package classes;
+
+import javax.swing.JOptionPane;
+public class ExercRepeat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n;
+		do {
+	    n = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe um numero (0 interrompe): ").toString());
+
+		 		
+		}while (n != 0);
+	}
+
+}
